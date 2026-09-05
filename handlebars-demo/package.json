@@ -1,0 +1,15 @@
+{
+  "name": "handlebars-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "handlebars": "^4.7.9",
+    "nodemailer": "^9.0.4"
+  }
+}

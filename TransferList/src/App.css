@@ -1,0 +1,68 @@
+body {
+  font-family: sans-serif;
+}
+.container {
+  display: inline-flex;
+  width: auto;
+}
+.left,
+.right,
+.indicator {
+  padding: 20px;
+  border: 1px solid;
+}
+button {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1a1a1a;
+}
+
+.clock-display {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #00ffcc;
+  background-color: #000000;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 255, 204, 0.5);
+  letter-spacing: 2px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  grid-template-rows: repeat(3, 50px);
+  gap: 5px;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+td,
+th {
+  padding: 4px;
+  border-bottom: 1px solid #ddd;
+  text-align: start;
+}
+
+th {
+  vertical-align: top;
+}

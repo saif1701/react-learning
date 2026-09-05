@@ -1,0 +1,282 @@
+<!doctype html>
+<html
+  lang="en"
+  xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="x-apple-disable-message-reformatting" />
+    <title>Email Title</title>
+
+    <!--[if mso]>
+      <noscript>
+        <xml>
+          <o:OfficeDocumentSettings>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+          </o:OfficeDocumentSettings>
+        </xml>
+      </noscript>
+    <![endif]-->
+
+    <style>
+      /* Reset & Base Styles */
+      html,
+      body {
+        margin: 0 !important;
+        padding: 0 !important;
+        height: 100% !important;
+        width: 100% !important;
+        background-color: #f4f4f5;
+      }
+      * {
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+      }
+      table,
+      td {
+        mso-table-lspace: 0pt !important;
+        mso-table-rspace: 0pt !important;
+      }
+      img {
+        -ms-interpolation-mode: bicubic;
+        border: 0;
+        height: auto;
+        line-height: 100%;
+        outline: none;
+        text-decoration: none;
+      }
+
+      /* Mobile Responsive Styles */
+      @media screen and (max-width: 600px) {
+        .email-container {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+        .responsive-padding {
+          padding-left: 20px !important;
+          padding-right: 20px !important;
+        }
+        .mobile-button {
+          width: 100% !important;
+          display: block !important;
+          text-align: center !important;
+        }
+      }
+    </style>
+  </head>
+  <body
+    style="
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f5;
+      font-family: Arial, Helvetica, sans-serif;
+    "
+  >
+    <!-- Preheader Text (Hidden in body, visible in inbox preview) -->
+    <div
+      style="
+        display: none;
+        font-size: 1px;
+        max-height: 0px;
+        max-width: 0px;
+        opacity: 0;
+        overflow: hidden;
+        mso-hide: all;
+        font-family: sans-serif;
+      "
+    >
+      Your clear preheader preview text goes here. Keep it under 100 characters.
+    </div>
+
+    <!-- Main Background Wrapper -->
+    <table
+      role="presentation"
+      cellspacing="0"
+      cellpadding="0"
+      border="0"
+      width="100%"
+      style="background-color: #f4f4f5"
+    >
+      <tr>
+        <td align="center" style="padding: 20px 0">
+          <!-- Email Container (600px Max Width) -->
+          <table
+            role="presentation"
+            cellspacing="0"
+            cellpadding="0"
+            border="0"
+            width="600"
+            class="email-container"
+            style="
+              max-width: 600px;
+              width: 100%;
+              background-color: #ffffff;
+              border-radius: 8px;
+              overflow: hidden;
+            "
+          >
+            <!-- Header / Logo Area -->
+            <tr>
+              <td
+                align="center"
+                class="responsive-padding"
+                style="
+                  padding: 30px 40px;
+                  background-color: #ffffff;
+                  border-bottom: 1px solid #e5e7eb;
+                "
+              >
+                <a href="https://example.com" target="_blank">
+                  <img
+                    src="https://via.placeholder.com/150x40/111827/ffffff?text=YOUR+LOGO"
+                    alt="Company Logo"
+                    width="150"
+                    height="40"
+                    style="
+                      display: block;
+                      font-family: Arial, sans-serif;
+                      color: #111827;
+                      font-size: 16px;
+                      border: 0;
+                    "
+                  />
+                </a>
+              </td>
+            </tr>
+
+            <!-- Hero Image -->
+            <tr>
+              <td align="center" style="background-color: #ffffff">
+                <a href="https://example.com" target="_blank">
+                  <img
+                    src="https://via.placeholder.com/600x250/3b82f6/ffffff?text=Main+Banner+Image"
+                    alt="Promotional announcement banner"
+                    width="600"
+                    style="
+                      width: 100%;
+                      max-width: 600px;
+                      height: auto;
+                      display: block;
+                    "
+                  />
+                </a>
+              </td>
+            </tr>
+
+            <!-- Main Content Body -->
+            <tr>
+              <td
+                class="responsive-padding"
+                style="
+                  padding: 40px;
+                  color: #374151;
+                  font-size: 16px;
+                  line-height: 1.6;
+                "
+              >
+                <h1
+                  style="
+                    margin: 0 0 20px 0;
+                    font-size: 24px;
+                    font-weight: bold;
+                    color: #111827;
+                    text-align: left;
+                  "
+                >
+                  Welcome, {{first_name}}!
+                </h1>
+                <p style="margin: 0 0 20px 0">
+                  This is a fully responsive HTML email template engineered to
+                  work reliably across desktop, web, and mobile
+                  clients—including Outlook and Gmail.
+                </p>
+                <p style="margin: 0 0 30px 0">
+                  All elements utilize inline CSS styles, explicit image
+                  dimensions, clean table layouts, and accessible contrast
+                  ratios.
+                </p>
+
+                <!-- Call to Action Button (Bulletproof VML/Padding Hybrid) -->
+                <table
+                  role="presentation"
+                  cellspacing="0"
+                  cellpadding="0"
+                  border="0"
+                  align="left"
+                  class="mobile-button"
+                >
+                  <tr>
+                    <td
+                      align="center"
+                      style="border-radius: 6px; background-color: #2563eb"
+                    >
+                      <a
+                        href="https://example.com"
+                        target="_blank"
+                        style="
+                          font-size: 16px;
+                          font-weight: bold;
+                          color: #ffffff;
+                          text-decoration: none;
+                          padding: 14px 28px;
+                          border-radius: 6px;
+                          border: 1px solid #2563eb;
+                          display: inline-block;
+                        "
+                      >
+                        Get Started Now
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Footer Area -->
+            <tr>
+              <td
+                class="responsive-padding"
+                style="
+                  padding: 30px 40px;
+                  background-color: #f9fafb;
+                  border-top: 1px solid #e5e7eb;
+                  color: #6b7280;
+                  font-size: 12px;
+                  line-height: 1.5;
+                  text-align: center;
+                "
+              >
+                <p style="margin: 0 0 10px 0">
+                  You are receiving this email because you registered on our
+                  website.
+                </p>
+                <p style="margin: 0 0 10px 0">
+                  Company Name Inc. | 123 Main Street, Suite 100, City, ST 12345
+                </p>
+                <p style="margin: 0">
+                  <a
+                    href="https://example.com/preferences"
+                    target="_blank"
+                    style="color: #2563eb; text-decoration: underline"
+                    >Manage Preferences</a
+                  >
+                  &nbsp;|&nbsp;
+                  <a
+                    href="https://example.com/unsubscribe"
+                    target="_blank"
+                    style="color: #2563eb; text-decoration: underline"
+                    >Unsubscribe</a
+                  >
+                </p>
+              </td>
+            </tr>
+          </table>
+          <!-- End Email Container -->
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
