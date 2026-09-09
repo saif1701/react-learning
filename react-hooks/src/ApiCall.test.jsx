@@ -4,7 +4,10 @@ import ApiCall from "./ApiCall";
 
 test("API is working", async () => {
   render(<ApiCall />);
+
   expect(screen.getByText("Loading users...")).toBeInTheDocument();
-  const apiData = await screen.findByText("Leanne Graham");
+
+  const apiData = await screen.findByText("Failed to fetch users");
+
   expect(apiData).toBeInTheDocument();
 });

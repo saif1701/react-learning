@@ -1,5 +1,7 @@
+// import Counter from "./useCallback/counter";
+import Counter from "./Counter";
+import Button from "./Button";
 import "./App.css";
-import Counter from "./useCallback/counter";
 
 function App() {
   // const { data, error, loading } = useFetch(
@@ -23,6 +25,7 @@ function App() {
   return (
     <>
       <Counter />
+      <Button variant="secondary" size="small" children="View More" />
     </>
   );
 }
