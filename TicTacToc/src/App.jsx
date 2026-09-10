@@ -1,5 +1,8 @@
 import { useState } from "react";
 import "./App.css";
+import Carts from "./Carts";
+import StopWatch from "./StopWatch";
+import Todos from "./todos";
 
 const winningPatterns = [
   [0, 1, 2], // top row
@@ -39,7 +42,7 @@ function App() {
     let result = checkWinner(newBoard);
     if (result) {
       setWinner(result);
-      // setBoard(Array(9).fill(null));
+      setBoard(Array(9).fill(null));
       return;
     }
     setCurrent(current === "X" ? "O" : "X");
@@ -58,6 +61,9 @@ function App() {
 
   return (
     <>
+      <Todos />
+      <StopWatch />
+      <Carts />
       <section className="board">
         {board.map((cell, index) => (
           <button
